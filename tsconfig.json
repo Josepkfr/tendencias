@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false
+
+  },
+  "@ventas/entities":[
+    "./src/modules/ventas/entities"
+  ],
+  "@ventas/providers":[
+    "./src/ventas/providers"
+  ],
+  "@ventas/controllers":[
+    "./src/con"
+  ],
+  "@ventas/dto":[
+    "./src/controllers"
+  ],
+  "@ventas/services":[
+    "./src/modules/ventas/services"
+  ],
+  "@ventas/modules":[
+    "./src/modules/ventas"
+  ],
+  "@shared/validator":[
+    "./src/shared/validation"
+  ],
+  "@shared/enums":[
+    "./src/shared/enums"
+  ],
+  "@config":[
+    "./src/config"
+  ],
+}
